@@ -17,3 +17,10 @@ Changement de l'apparence du texte
 Ajout de la couleur et un fond 
 Création de bordures et d’ ombres
 Création d’ apparences dynamiques
+
+Section 3 : 
+
+Structure de page : utilisation de balises sémantiques
+Implémentation du modèle des boîtes
+Mise en page avec Flexbox.
+Implémentation de CSS Grids
