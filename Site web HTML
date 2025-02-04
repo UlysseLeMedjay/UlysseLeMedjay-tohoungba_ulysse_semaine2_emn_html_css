@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Les Origines d'Internet par Ulysse LeMedjay</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        header, footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+        nav {
+            text-align: center;
+            margin: 10px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #333;
+        }
+        section {
+            background: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+        }
+        h2 {
+            transition: transform 0.3s ease-in-out;
+        }
+        h2:hover {
+            transition-duration: 0.5s;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        table, th, td {
+            border: 1px solid #333;
+        }
+        th, td {
+            padding: 10px;
+            text-align: center;
+        }
+        form {
+            margin-top: 20px;
+            background: #fff;
+            padding: 20px;
+            border-radius: 5px;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #333;
+            border-radius: 5px;
+        }
+        button {
+            background: #333;
+            color: #fff;
+            padding: 10px;
+            border: none;
+            cursor: pointer;
+        }
+        @media (max-width: 600px) {
+            body {
+                padding: 10px;
+            }
+            nav {
+                display: flex;
+                flex-direction: column;
+            }
+            nav a {
+                margin-bottom: 5px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Les Origines d'Internet par Ulysse LeMedjay</h1>
+        <img src="C:\Users\Ulysse EMN\Documents\[Briefs a rendre]\World_Wide_Web_EWM_Web_Design_Agency_.jpg" alt="Tim Berners Lee" width="65%">
+    </header>
+    
+    <nav>
+        <a href="#introduction">Introduction</a>
+        <a href="#arpanet">L'ère d'ARPANET</a>
+        <a href="#web">Naissance du Web</a>
+        <a href="#conclusion">Conclusion</a>
+    </nav>
+    
+    <section id="introduction">
+        <h2>Introduction</h2>
+        <p>Internet est aujourd'hui un outil incontournable, mais son histoire remonte aux années 1960. Il est né d'un besoin de communication fiable entre ordinateurs, évoluant progressivement pour devenir le réseau mondial que nous connaissons.</p>
+    </section>
+    
+    <section id="arpanet">
+        <h2>L'ère d'ARPANET</h2>
+        <p>ARPANET, créé par le département de la Défense des États-Unis en 1969, est considéré comme le précurseur d'Internet. Il visait à connecter des universités et des institutions pour faciliter l'échange d'informations.</p>
+    </section>
+    
+    <section id="web">
+        <h2>La Naissance du Web</h2>
+        <p>En 1989, Tim Berners-Lee invente le World Wide Web (WWW), introduisant les concepts de pages HTML, de liens hypertextes et de navigateurs, révolutionnant ainsi l'accès à l'information.</p>
+    </section>
+    
+    <section id="conclusion">
+        <h2>Conclusion</h2>
+        <p>Depuis ses débuts modestes avec ARPANET jusqu'à l'ère du Web et des réseaux sociaux, Internet a transformé notre façon de communiquer, d'apprendre et de travailler.</p>
+    </section>
+    
+    <section id="tableau">
+        <h2>Évolution d'Internet</h2>
+        <table>
+            <tr>
+                <th>Année</th>
+                <th>Événement</th>
+            </tr>
+            <tr>
+                <td>1969</td>
+                <td>Création d'ARPANET</td>
+            </tr>
+            <tr>
+                <td>1983</td>
+                <td>Adoption du protocole TCP/IP</td>
+            </tr>
+            <tr>
+                <td>1989</td>
+                <td>Invention du Web</td>
+            </tr>
+        </table>
+    </section>
+    
+    <section id="contact">
+        <h2>Contact</h2>
+        <form>
+            <label for="name">Nom:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Envoyer</button>
+        </form>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 - Blog sur les Origines d'Internet</p>
+        <p>
+            <a href="https://github.com/UlysseLeMedjay" target="_blank">GitHub</a> |
+            <a href="https://www.linkedin.com/in/ulysse-tohoungba/" target="_blank">LinkedIn</a>
+        </p>
+    </footer>
+</body>
+</html>
