@@ -24,3 +24,12 @@ Structure de page : utilisation de balises sémantiques
 Implémentation du modèle des boîtes
 Mise en page avec Flexbox.
 Implémentation de CSS Grids
+
+Section 4 : 
+
+Ajout des tableaux
+Mise en place de formulaires 
+Finalisation du formulaire et ajout un bouton d'envoi
+Responsive design : Media Queries : mise en page pour mobile et tablette.
+Ajout d’animations
+
